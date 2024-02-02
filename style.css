@@ -1,0 +1,61 @@
+body {
+    background-image: url("clck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+}
+.watch {
+    margin: 30px auto;
+    color:#5dade2;
+    text-align: center;
+    text-transform:uppercase;
+   
+    
+    
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+.watch a{
+    text-align: center;
+    font-size: 50rem;    
+}
+#seconds, #tens {
+    font-size: 15rem;
+    color:#b5b5b5;
+
+}
+
+.watch a
+{
+  font-size: 18rem;
+   color: #b5b5b5;
+}
+button {
+    font-family: "Poppins", sans-serif;
+    
+    background:#5dade2;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.8em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px  #5dade2 ,0 0 25px #5dade2;
+
+}
+button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: #b5b5b5;
+    border: solid 5px #696692;
+    box-shadow: 0 0 7px #00abf0,0 0 7px #00abf0;
+}
